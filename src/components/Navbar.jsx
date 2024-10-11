@@ -9,27 +9,25 @@ const Navbar = () => {
     }
 
     return (
-        <div className='text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l'>
+        <div className='z-10 text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l'>
 
-            <h1 className='text-3xl font-bold primary-color ml-4'>LEVI CESPEDES</h1>
+            <h1 className='text-3xl font-bold primary-color ml-4'>Levi Cespedes</h1>
             <ul className='hidden md:flex'>
-                <li className="p-2">Inicio</li>
-                <li className="p-2">Acerca De</li>
-                <li className="p-2">Habilidades</li>
-                <li className="p-2">Contacto</li>
+                <li className="p-5"><a href="#inicio">Inicio</a></li>
+                <li className="p-5"><a href="#sobre">Acerca De</a></li>
+                <li className="p-5"><a href="#experiencia">Habilidades</a></li>
             </ul>
 
             <div onClick={handleNav} className='block md:hidden'>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
 
-            <div className={nav ? 'text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#202121] ease-in-out duration-200' : 'fixed left-[-100%]'}>
-                <h1 className='text-3xl primary-color ml-4'>LEVI CESPEDES</h1>
+            <div className={nav ? 'z-10 text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#202121] ease-in-out duration-200' : 'fixed left-[-100%]'}>
+                <h1 className='text-3xl primary-color ml-4'>Levi Cespedes</h1>
                 <ul className='p-8 text-2xl'>
-                    <li className="p-2">Inicio</li>
-                    <li className="p-2">Acerca De</li>
-                    <li className="p-2">Habilidades</li>
-                    <li className="p-2">Contacto</li>
+                    <li className="p-5"><a href="#inicio">Inicio</a></li>
+                    <li className="p-5"><a href="#sobre">Acerca De</a></li>
+                    <li className="p-5"><a href="#experiencia">Habilidades</a></li>
                 </ul>
             </div>
 
