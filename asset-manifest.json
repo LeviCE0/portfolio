@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LeviCE0/portfolio/static/css/main.976eede0.css",
+    "main.js": "/LeviCE0/portfolio/static/js/main.359365b7.js",
+    "static/media/profile_photo.png": "/LeviCE0/portfolio/static/media/profile_photo.916ee6436878f2f5d46b.png",
+    "index.html": "/LeviCE0/portfolio/index.html",
+    "main.976eede0.css.map": "/LeviCE0/portfolio/static/css/main.976eede0.css.map",
+    "main.359365b7.js.map": "/LeviCE0/portfolio/static/js/main.359365b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.976eede0.css",
+    "static/js/main.359365b7.js"
+  ]
+}
