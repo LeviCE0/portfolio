@@ -1,23 +1,19 @@
 import React from 'react'
-import aboutImg from '../assets/code-icon.png';
 
 const About = () => {
     return (
-        <div className='py-10 text-white bg-[#232325] h-auto' id='sobre'>
+        <div className='py-10 bg-neutral-950 text-white h-auto' id='sobre'>
             <div className='flex sm:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
-
-                <div>
-                    <div className='w-[400px] h-full'>
-                        <img src={aboutImg} alt="" className='object-cover rounded-xl h-[300px] filter grayscale brightness-50' />
-                    </div>
-                </div>
 
                 <div>
                     <div className='p-2'>
                         <div className='text-gray-300 my-3'>
                             <h3 className='text-4xl font-semibold mb-5'>Sobre <span>Mí</span></h3>
                             <p className='text-justify leading-7 w-11/12 mx-auto'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique quibusdam adipisci natus ducimus, cupiditate cumque sunt soluta neque. Quia, neque quidem. Unde sint odio nisi vel ipsa minima velit?
+                                ¡Hola! Soy Levi Cespedes, un apasionado del desarrollo. Me defino como <strong>Dev FullStack</strong>, <strong>Dev Móvil</strong> y <strong>Diseñador Web</strong>.
+                                Desde que me metí en el mundo de la programación, he estado aprendiendo y creciendo constantemente.
+                                Tengo habilidades en tecnologías como <strong>React</strong>, <strong>Tailwind</strong>, <strong>Kotlin</strong> y <strong>Flutter</strong>.
+                                Siempre estoy buscando nuevos retos y oportunidades para crear soluciones innovadoras y útiles.
                             </p>
                         </div>
                     </div>
