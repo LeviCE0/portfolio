@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub } from 'react-icons/fa'; // Asegúrate de importar el ícono
+import { FaGithub } from 'react-icons/fa';
 
 const Experience = () => {
     return (
@@ -27,7 +27,7 @@ const Experience = () => {
                 </p>
                 <div className="mt-2">
                     <a 
-                        href="https://github.com/LeviCE0/demo-sistema-torigallo" 
+                        href="https://github.com/LeviCE0/demo-sistema-torigallo/tree/main" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className="inline-block text-blue-500 mr-4"
@@ -35,7 +35,7 @@ const Experience = () => {
                         <FaGithub className="inline-block mr-1" /> Ver Código en GitHub
                     </a>
                     <a 
-                        href="https://levice0.github.io/demo-sistema-torigallo/" // Asegúrate de reemplazar este enlace con el correcto si es necesario
+                        href="https://levice0.github.io/demo-sistema-torigallo/"
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className="inline-block text-blue-500"
